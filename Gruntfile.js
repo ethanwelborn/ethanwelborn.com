@@ -318,6 +318,7 @@ module.exports = function (grunt) {
     }
   });
 
+  grunt.loadNpmTasks('grunt-karma');
 
   grunt.registerTask('serve', function (target) {
     if (target === 'dist') {

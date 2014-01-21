@@ -6,7 +6,7 @@ var app = angular.module('ethanwelborncomApp', [
   'ngSanitize',
   'ngRoute'
 ])
-  .config(function ($routeProvider) {
+  .config(['$routeProvider', function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/home.html',
@@ -27,4 +27,4 @@ var app = angular.module('ethanwelborncomApp', [
       .otherwise({
         redirectTo: '/'
       });
-  });
+  }]);

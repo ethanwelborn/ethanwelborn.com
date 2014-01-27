@@ -9,19 +9,19 @@ var app = angular.module('ethanwelborncomApp', [
   .config(['$routeProvider', function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/home.html',
+        templateUrl: 'app/views/home.html',
         controller: 'HomeCtrl'
       })
       .when('/about', {
-        templateUrl: 'views/about.html',
+        templateUrl: 'app/views/about.html',
         controller: 'AboutCtrl'
       })
       .when('/work', {
-        templateUrl: 'views/work.html',
+        templateUrl: 'app/views/work.html',
         controller: 'WorkCtrl'
       })
       .when('/projects', {
-        templateUrl: 'views/projects.html',
+        templateUrl: 'app/views/projects.html',
         controller: 'ProjectsCtrl'
       })
       .otherwise({

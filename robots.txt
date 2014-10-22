@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://ethanwelborn.github.io/sitemap.xml 
